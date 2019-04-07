@@ -1,0 +1,22 @@
+{
+  "name": "desafiocomentarios",
+  "version": "1.0.0",
+  "description": "a web app that show commentaries section",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpabarca/DesafioComentarios.git"
+  },
+  "author": "María Paz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpabarca/DesafioComentarios/issues"
+  },
+  "homepage": "https://github.com/mpabarca/DesafioComentarios#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0"
+  }
+}
