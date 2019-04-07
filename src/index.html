@@ -4,17 +4,22 @@
         <title>Seccion de Comentarios</title>
         <meta charset="utf-8" lang="es">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <link rel="stylesheet" href="css/grid.css" />
     </head>
     <body>
         <div id="comment-box">
-            <form>
-                <input type="text" placeholder="Ingresa tu comentario">
-                <button type="submit">Enviar comentario</button>
+            <form id="input-form">
+                <input type="text" 
+                    id="input-send"
+                    placeholder="Ingresa tu comentario"
+                    style="height:100px; width:500px">
             </form>
+            <button id="button-send" onclick="startApp()">Enviar comentario</button>
         </div>
-        <div id="comment-list"></div>
+        <div id="comment-container">
+            <h2>COMENTARIOS</h2>
+            <div id="comment-list"></div>
+        </div>
+        
         <script src="main.js"></script>
         <script src="functions.js"></script>
     </body>
